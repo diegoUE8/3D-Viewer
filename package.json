@@ -1,0 +1,39 @@
+{
+  "author": "Diego Zazzeroni <zazze88@gmail.com>",
+  "name": "3DViewer",
+  "description": "3DViewer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diegoUE8/3DViewer.git"
+  },
+  "engines": {
+    "npm": ">=6.14.6 <=8.x.x",
+    "node": ">=12.18.3 <=16.x.x"
+  },
+  "main": "dist/server/main.js",
+  "scripts": {
+    "start": "node dist/server/main.js"
+  },
+  "dependencies": {
+    "agora-access-token": "2.0.4",
+    "agora-rtc-sdk": "3.6.11",
+    "agora-rtm-sdk": "1.4.5",
+    "body-parser": "1.19.2",
+    "events": "3.3.0",
+    "express": "4.17.3",
+    "gsap": "3.9.1",
+    "https": "1.0.0",
+    "qrious": "4.0.2",
+    "rxcomp": "1.0.0-beta.21",
+    "rxcomp-form": "~1.0.0-beta.18",
+    "rxjs": "6.6.2",
+    "swiper": "5.3.8",
+    "three": "0.138.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulpfile-config": "^1.0.0-alpha.18"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Madeira House",
+      "likes": 0,
+      "added": false,
+      "ar": "models/madeirahouse.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "grigio.hdr",
+      "items": [
+        {
+          "id": 31,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "house/",
+          "gltfFile": "madeirahouse.glb"
+        },
+        {
+          "id": 32,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 34,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    }
+  ]
+}
